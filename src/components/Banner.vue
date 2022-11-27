@@ -11,9 +11,9 @@
 <style scoped>
     #main-banner{
         background-image: url('/public/img/burger.jpg');
-        background-position:  0 -350px;
+        background-position:  0 -250px;
         background-size: cover;
-        height: 700px;
+        height: 550px;
         display: flex;
         align-items: center;
         justify-content: flex-start;
