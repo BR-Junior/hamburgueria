@@ -19,7 +19,7 @@
                     <label for="carne">Escolha a carne</label>
                     <select name="carne" id="carne" v-model="carne" @click="getIngredientes">
                         <option value=""> Selecione a sua carne</option>
-                        <option v-for="carne in carnes" :key="carne.id" :value="carne.id">{{ carne.tipo }}</option>
+                        <option v-for="carne in carnes" :key="carne.id" :value="carne.tipo">{{ carne.tipo }}</option>
                     </select>
                 </div>
                 <div id="opcionais-title" class="input-container">
