@@ -77,5 +77,44 @@
       "tipo": "Finalizado"
     }
   ],
-  "burgers": []
+  "burgers": [
+    {
+      "nome": "João",
+      "pao": "Italiano Branco",
+      "carne": "Picanha",
+      "opcionais": [
+        "Bacon",
+        "Cheddar"
+      ],
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "nome": "junior",
+      "pao": "Italiano Branco",
+      "carne": "Alcatra",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": 2
+    },
+    {
+      "nome": "as",
+      "pao": "",
+      "carne": "Maminha",
+      "opcionais": [],
+      "status": "Em produção",
+      "id": 3
+    },
+    {
+      "nome": "Julia",
+      "pao": "Italiano Branco",
+      "carne": "Maminha",
+      "opcionais": [
+        "Pepino",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado",
+      "id": 4
+    }
+  ]
 }
